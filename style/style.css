@@ -3,43 +3,62 @@ html, body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: #EEE;
+    background: #ffd89b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
+
   }
+  
 .game {
     display: flex;
     flex-direction: column;
   }
-  
+
   .game span {
     margin-bottom: 1rem;
   }
   
-  .game p {
-    margin: 0;
-  }
 
 .word-boxes {
     display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
+    gap: 2rem;
+    margin-bottom: 2rem;
   }
   
 .word-box {
-    width: 50px;
-    height: 50px;
-    border: 2px solid #78A1BB;
+    width: 70px;
+    height: 70px;
+    border: 2px solid white;
+    box-sizing: content-box;
+    border-width: 8px;
+    border-style: solid;
+    border-image: linear-gradient(to right bottom, white,orange,red);
+    border-image-slice: 1;
     border-radius: 0.5rem;
     cursor: pointer;
     display: grid;
     place-items: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
 .word-box.selected{
-    border: 2px solid black
+  border: 2px solid white;
+  box-sizing: content-box;
+  border-width: 8px;
+  border-style: solid;
+  border-image: linear-gradient(to right bottom, black,white,blue);
+  border-image-slice: 1;
+  border-radius: 0.5rem;
 }
-  
+
+#start-word {
+  color: white;
+  font-size: 2rem;
+}
+#end-word {
+  color: green;
+  font-size: 2rem;
+}
