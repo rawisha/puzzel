@@ -17,7 +17,7 @@ html, body {
     flex-direction: column;
   }
 
-  .game span {
+.game span {
     margin-bottom: 1rem;
   }
   
