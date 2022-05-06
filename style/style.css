@@ -1,0 +1,45 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+.game {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .game span {
+    margin-bottom: 1rem;
+  }
+  
+  .game p {
+    margin: 0;
+  }
+
+.word-boxes {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+.word-box {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #78A1BB;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+  }
+
+.word-box.selected{
+    border: 2px solid black
+}
+  

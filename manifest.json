@@ -1,0 +1,51 @@
+{
+    "name": "Follow the leed",
+    "short_name": "WordPuzzle",
+    "start_url": "/",
+    "display": "standalone",
+    "background": "#FFE9D2",
+    "theme_color": "#FFE1C4",
+    "orentiation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/img/icons/StoreLogo.scale-150.png",
+            "type": "image/png",
+            "sizes": "75x75"
+        },
+        {
+            "src": "/img/icons/StoreLogo.scale-200.png",
+            "type": "image/png",
+            "sizes": "100x100"
+        },
+        {
+            "src": "/img/icons/StoreLogo.scale-400.png",
+            "type": "image/png",
+            "sizes": "200x200"
+        },
+        {
+            "src": "/img/icons/Wide310x150Logo.scale-100.png",
+            "type": "image/png",
+            "sizes": "310x150"
+        },
+        {
+            "src": "/img/icons/Wide310x150Logo.scale-400.png",
+            "type": "image/png",
+            "sizes": "1240x600"
+        },
+        {
+            "src": "/img/icons/Wide310x150Logo.scale-400.png",
+            "type": "image/png",
+            "sizes": "1240x600"
+        },
+        {
+            "src": "/img/icons/SplashScreen.scale-150.png",
+            "type": "image/png",
+            "sizes": "930x450"
+        },
+        {
+            "src": "/img/icons/SplashScreen.scale-400.png",
+            "type": "image/png",
+            "sizes": "2480x1200"
+        }
+    ]
+}
