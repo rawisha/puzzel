@@ -1,6 +1,6 @@
 {
-    "name": "Follow the leed",
-    "short_name": "WordPuzzle",
+    "name": "Pendlaren",
+    "short_name": "Pendlaren",
     "start_url": "/",
     "display": "standalone",
     "background": "#FFE9D2",
